@@ -83,18 +83,30 @@
 
     <h2>1. Information We Collect</h2>
     <p>
-      Writune does <strong>not</strong> collect, store, or transmit any personally
-      identifiable information. The app does not require an account or login.
+      Writune does <strong>not</strong> require an account or login, and does not collect
+      any personally identifiable information such as your name, email address, or location.
     </p>
-    <p>All user data (learning progress, settings, completed content) is stored
-      <strong>locally on your device</strong> using iOS UserDefaults and is never
-      sent to any external server.
+    <p>
+      All learning data (progress records, vocabulary, saved sentences, and settings)
+      is stored <strong>locally on your device</strong> using iOS UserDefaults and is
+      optionally synced to your personal iCloud account via iCloud Key-Value Storage.
+      This data is never transmitted to Writune's servers.
     </p>
 
-    <h2>2. Third-Party Content Sources</h2>
+    <h2>2. iCloud Sync</h2>
     <p>
-      Writune fetches publicly available content from the following third-party sources
-      to provide daily learning material. These requests do not include any personal data.
+      If you are signed in to iCloud on your device, Writune may sync your learning
+      progress, vocabulary, and content history across your devices using
+      <strong>Apple iCloud Key-Value Storage</strong>. This data is stored in your
+      personal iCloud account and is governed by
+      <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.
+      Writune has no access to this data.
+    </p>
+
+    <h2>3. Third-Party Content Sources</h2>
+    <p>
+      Writune fetches publicly available content from the following sources to provide
+      daily learning material. These requests do not include any personal data.
     </p>
     <ul>
       <li><strong>Wikipedia Featured Feed</strong> — <a href="https://en.wikipedia.org" target="_blank">en.wikipedia.org</a></li>
@@ -107,33 +119,52 @@
       handle data on their end.
     </p>
 
-    <h2>3. Analytics & Tracking</h2>
+    <h2>4. Translation Service</h2>
     <p>
-      Writune does <strong>not</strong> use any analytics tools, advertising SDKs,
-      or third-party tracking libraries. We do not track your usage behavior.
+      The vocabulary feature uses <strong>Google Translate</strong> to automatically
+      provide Korean translations of English words you save. When you save a word,
+      the word text (and optionally a short surrounding phrase for context) is sent
+      to Google's translation servers. No other personal data is included in these requests.
+    </p>
+    <p>
+      Translation requests are governed by
+      <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
+      You may also enter translations manually without using the automatic translation feature.
     </p>
 
-    <h2>4. Children's Privacy</h2>
+    <h2>5. Analytics</h2>
+    <p>
+      Writune uses <strong>Firebase Analytics</strong> (provided by Google) to collect
+      anonymous, aggregated usage data such as feature interactions and learning session
+      counts. This data does not include any personally identifiable information and is
+      used solely to improve the app experience.
+    </p>
+    <p>
+      Firebase Analytics data collection is governed by
+      <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
     <p>
       Writune is not directed at children under the age of 13. We do not knowingly
       collect any information from children.
     </p>
 
-    <h2>5. Data Security</h2>
+    <h2>7. Data Security</h2>
     <p>
-      Since all data is stored locally on your device, it is protected by your
-      device's built-in security (passcode, Face ID, Touch ID). We have no access
-      to your device or its data.
+      Learning data stored on your device is protected by your device's built-in
+      security (passcode, Face ID, Touch ID). iCloud data is protected by Apple's
+      security infrastructure. We have no access to your device or iCloud data.
     </p>
 
-    <h2>6. Changes to This Policy</h2>
+    <h2>8. Changes to This Policy</h2>
     <p>
       We may update this Privacy Policy from time to time. Any changes will be
       reflected on this page with an updated date. Continued use of the app
       after changes constitutes acceptance of the new policy.
     </p>
 
-    <h2>7. Contact</h2>
+    <h2>9. Contact</h2>
     <p>
       If you have any questions about this Privacy Policy, please contact us at:<br/>
       <a href="mailto:nextact22@gmail.com">nextact22@gmail.com</a>
